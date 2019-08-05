@@ -1,0 +1,34 @@
+package com.yzh.study.DesignPattern.factory.SimpleFactory;
+
+import com.yzh.study.DesignPattern.factory.Connector;
+import com.yzh.study.DesignPattern.factory.DB2Connector;
+import com.yzh.study.DesignPattern.factory.MysqlConnector;
+import com.yzh.study.DesignPattern.factory.OracleConnector;
+
+/**
+ * @program: data-analysis
+ * @description: 简单工厂
+ * @author: HeroYang
+ * @create: 2019-08-02 17:12
+ **/
+
+public class SimpleFactory {
+	public Connector getConncector(String conncectorName){
+		Connector connector = null;
+		switch (conncectorName){
+			case "mysql":
+				connector =  new MysqlConnector();
+				break;
+			case "oracle":
+				connector =  new OracleConnector();
+				break;
+			case "DB2":
+				connector =  new DB2Connector();
+				break;
+			//*******************拓展的时候需要修改代码
+			default:
+				System.out.println("没有这种类型的连接器");
+		}
+		return connector;
+	}
+}
