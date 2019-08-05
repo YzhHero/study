@@ -1,7 +1,7 @@
-package com.yzh.study.DesignPattern.factory.FactoryMethod;
+package com.yzh.study.designPattern.factory.FactoryMethod;
 
-import com.yzh.study.DesignPattern.factory.Connector;
-import com.yzh.study.DesignPattern.factory.DB2Connector;
+import com.yzh.study.designPattern.factory.Connector;
+import com.yzh.study.designPattern.factory.DB2Connector;
 
 /**
  * @program: data-analysis

@@ -1,9 +1,9 @@
-package com.yzh.study.DesignPattern.factory.SimpleFactory;
+package com.yzh.study.designPattern.factory.SimpleFactory;
 
-import com.yzh.study.DesignPattern.factory.Connector;
-import com.yzh.study.DesignPattern.factory.DB2Connector;
-import com.yzh.study.DesignPattern.factory.MysqlConnector;
-import com.yzh.study.DesignPattern.factory.OracleConnector;
+import com.yzh.study.designPattern.factory.Connector;
+import com.yzh.study.designPattern.factory.DB2Connector;
+import com.yzh.study.designPattern.factory.MysqlConnector;
+import com.yzh.study.designPattern.factory.OracleConnector;
 
 /**
  * @program: data-analysis

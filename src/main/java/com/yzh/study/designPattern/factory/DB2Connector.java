@@ -1,4 +1,4 @@
-package com.yzh.study.DesignPattern.factory;
+package com.yzh.study.designPattern.factory;
 
 /**
  * @program: data-analysis

@@ -1,8 +1,8 @@
-package com.yzh.study.DesignPattern.factory.AbstractFactory;
+package com.yzh.study.designPattern.factory.AbstractFactory;
 
-import com.yzh.study.DesignPattern.factory.DB2Connector;
-import com.yzh.study.DesignPattern.factory.MysqlConnector;
-import com.yzh.study.DesignPattern.factory.OracleConnector;
+import com.yzh.study.designPattern.factory.DB2Connector;
+import com.yzh.study.designPattern.factory.MysqlConnector;
+import com.yzh.study.designPattern.factory.OracleConnector;
 
 /**
  * @program: data-analysis
