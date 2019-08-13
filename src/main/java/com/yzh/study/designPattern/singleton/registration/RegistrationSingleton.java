@@ -28,6 +28,7 @@ public class RegistrationSingleton {
 
 	public static RegistrationSingleton getInstance(String name)
 			throws ClassNotFoundException, IllegalAccessException, InstantiationException, InterruptedException {
+		Thread.sleep(10);
 		if (name == null) {
 			//默认为获取父类
 			name = RegistrationSingleton.class.getName();
@@ -35,7 +36,6 @@ public class RegistrationSingleton {
 		if (registrationMap.get(name) == null){
 			registrationMap.put(name, (RegistrationSingleton) Class.forName(name).newInstance());
 		}
-		Thread.sleep(10);
 		return registrationMap.get(name);
 	}
 }
