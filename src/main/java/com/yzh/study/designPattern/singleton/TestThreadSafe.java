@@ -12,7 +12,8 @@ public abstract class TestThreadSafe {
 
 	public abstract MyThread getMyThread(CountDownLatch countDownLatch);
 
-	public void testSafe(int cycleNum,String singletonType){
+	//此处用到了模板模式，定义流程，getMyThread延时加载
+	public final void testSafe(int cycleNum,String singletonType){
 		CountDownLatch countDownLatch = new CountDownLatch(cycleNum);
 		long startTime = System.currentTimeMillis();
 		for (int i = 0; i <cycleNum ; i++) {
