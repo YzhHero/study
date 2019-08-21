@@ -16,7 +16,7 @@ import java.util.List;
  * @description: servlet委派类
  * @author: HeroYang
  * @create: 2019-08-21 10:15
- * spring 中的委派 一般带有 Dispatcher、delegate
+ * spring 中的委派 一般以 Dispatcher、delegate 结尾
  **/
 public class DispatcherServlet {
 
