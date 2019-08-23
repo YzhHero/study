@@ -1,10 +1,8 @@
-package com.yzh.study.designPattern.adapter;
+package com.yzh.study.designPattern.wrapper.decorator;
 
-import com.yzh.study.designPattern.adapter.original.Result;
+import com.yzh.study.designPattern.wrapper.original.Result;
 
 public interface LoginByThirdService{
-
-	public boolean check(String openId);
 
 	public Result loginByWechat(String openId);
 

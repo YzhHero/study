@@ -1,11 +1,11 @@
-package com.yzh.study.designPattern.adapter.original;
+package com.yzh.study.designPattern.wrapper.original;
 
 /**
  * @description: 模拟原有的系统登录实现
  * @author: HeroYang
  * @create: 2019-08-21 15:11
  **/
-public class OrginalLoginServiceImpl implements OrginalLoginService {
+public class OrginalLoginService implements IOrginalLoginService {
 
 	public Result register(String name, String pass) {
 		System.out.println("老系统较为复杂的注册实现,用户名为：" + name + ",密码为：" + pass);

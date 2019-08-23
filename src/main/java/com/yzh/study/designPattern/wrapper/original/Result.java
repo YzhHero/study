@@ -1,4 +1,4 @@
-package com.yzh.study.designPattern.adapter.original;
+package com.yzh.study.designPattern.wrapper.original;
 
 import lombok.Getter;
 import lombok.Setter;
